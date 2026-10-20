@@ -1,0 +1,5 @@
+{
+  "name": "LITSA handbook",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "customizations": {"vscode": {"extensions": ["yzhang.markdown-all-in-one"]}}
+}

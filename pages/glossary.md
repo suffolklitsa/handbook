@@ -10,9 +10,10 @@ last_reviewed: 2026-10-20
 |---|---|
 | **Repository (repo)** | A project's folder of files plus the full history of every change. Each LITSA project is one repo. |
 | **Commit** | A saved snapshot of changes, with a message saying what changed. |
-| **Branch** | Your own line of changes, separate from `main` until it's merged. |
-| **`main`** | The branch that holds the accepted version. On the site repo, `main` is what's live. |
-| **Pull request (PR)** | A request to merge your branch into `main`, where others review it. |
+| **Branch** | Your own line of changes, kept separate until it's merged. |
+| **`staging`** | Where accepted changes collect before release, and where pull requests go. On the site, it's deployed to staging.suffolklitsa.pages.dev. |
+| **`main`** | The released version. On the site repo, `main` is what's live. |
+| **Pull request (PR)** | A request to merge your branch into `staging` (or `main`, in repos without staging), where others review it. |
 | **Issue** | A task, bug or idea, with a discussion. LITSA issues say what done looks like. |
 | **Fork** | Your own copy of someone else's repo, used to propose changes when you aren't a member. |
 | **Clone** | A copy of a repo on a computer (yours or a Codespace). |

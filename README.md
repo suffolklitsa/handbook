@@ -20,6 +20,10 @@ Any LITSA member, with or without coding experience. If you've never used GitHub
 
 GitHub's built-in wikis skip pull requests and checks. The handbook gets the same review as everything else: anyone can propose a change, someone reviews it, and `scripts/check_pages.py` catches broken links and missing details.
 
+## Branches
+
+Pull requests go to `staging`, the default branch. `main` is the released version: maintainers promote `staging` to `main` with a pull request when a batch of changes is ready. Both branches are protected and need a review and passing checks.
+
 ## Contributing
 
 The handbook gets better each time someone new uses it. If a step confused you, fix it in a pull request, or open an issue saying where you got stuck. Every page has an `owner` and `last_reviewed` date in its front matter; update the date when you've checked a page is still right. See [CONTRIBUTING.md](CONTRIBUTING.md).

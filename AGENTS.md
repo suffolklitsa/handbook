@@ -15,6 +15,7 @@ python3 -m unittest discover -s tests
 
 ## Rules for this repo
 
+- **Branches:** work from `staging` and open pull requests against it. Never target `main`; maintainers promote `staging` to `main`.
 - **Readers are new.** Write for someone who has never used GitHub. Don't skip steps or assume terms; link the glossary.
 - **Only describe what's real.** Button names, menus and steps must match what GitHub and the tools show today. If you can't confirm a step, say so in the pull request instead of guessing.
 - **No prices or plan details** beyond "check the tool's site."

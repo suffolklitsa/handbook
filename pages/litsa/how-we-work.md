@@ -32,4 +32,4 @@ Every issue has **Background**, **What to do**, **Done when**, **Start here** an
 
 ## Reviews
 
-`main` is protected in every public repo: changes reach it only through a pull request with one approving review and passing checks. Every pull request is reviewed by someone else before it merges. Reviewers check the "Done when" list, the checks, and the rules. Be kind and specific; the point is a better change.
+Repos that appear on the site have two branches. Pull requests go to `staging`, the default; `main` is the released version, and maintainers promote `staging` to `main` when a batch is ready. The site's staging copy is at staging.suffolklitsa.pages.dev. Protected branches take changes only through a pull request with one approving review and, where a repo has them, passing checks. Every pull request is reviewed by someone else before it merges. Reviewers check the "Done when" list, the checks, and the rules. Be kind and specific; the point is a better change.

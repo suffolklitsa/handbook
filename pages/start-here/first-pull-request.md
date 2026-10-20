@@ -12,7 +12,7 @@ A pull request ("PR") is how a change gets into a LITSA repo: you make the chang
 
 ## 1. Open a Codespace on this repo
 
-Go to github.com/suffolklitsa/handbook → **Code** → **Codespaces** → **Create codespace on main**.
+Go to github.com/suffolklitsa/handbook → **Code** → **Codespaces** → **Create codespace on staging**.
 
 ## 2. Make a branch
 
@@ -54,7 +54,7 @@ A commit is a saved snapshot of your change with a short message saying what it 
 
 ## 6. Open the pull request
 
-GitHub shows a banner on the repo page: **Compare & pull request**. Click it, fill in the template (one sentence is enough), and click **Create pull request**.
+GitHub shows a banner on the repo page: **Compare & pull request**. Click it, check that it says `base: staging`, fill in the template (one sentence is enough), and click **Create pull request**.
 
 ## 7. After review
 

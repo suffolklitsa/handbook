@@ -32,4 +32,4 @@ Every issue has **Background**, **What to do**, **Done when**, **Start here** an
 
 ## Reviews
 
-Every pull request is reviewed by someone else before it merges. Reviewers check the "Done when" list, the checks, and the rules. Be kind and specific; the point is a better change.
+`main` is protected in every public repo: changes reach it only through a pull request with one approving review and passing checks. Every pull request is reviewed by someone else before it merges. Reviewers check the "Done when" list, the checks, and the rules. Be kind and specific; the point is a better change.
